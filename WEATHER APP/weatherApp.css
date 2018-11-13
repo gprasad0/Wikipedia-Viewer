@@ -1,0 +1,31 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+	
+.container{
+	width:80%;
+	margin:40px auto;
+	text-align: center;
+	color:white;
+}
+
+#header{
+	font-size: 100px;
+	font-family: 'Allerta Stencil', sans-serif;;
+}
+
+#city,#temp,#climate{
+	padding-top: 20px;
+	font-size: 40px;
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+#climate{
+	text-transform: uppercase;
+}
