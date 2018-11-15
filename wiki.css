@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body{
+background-color: #1283B3;
+}
+
 .container{
 	width:70%;
 	margin:180px auto;
@@ -13,9 +17,29 @@
 .outputLi{
 	line-height: 50px;
 	background-color: brown;
-    
+    margin: 20px;
 }
 
 #outputUl{
+	list-style: none;
+
+}
+
+#value{
+	border-radius:25px;
+	border:3px #FE5B2B solid;
+	outline: none;
+	padding:10px;
+	font-size: 20px;
+}
+
+a{
 	text-decoration: none;
+	color:black;
+	list-style: none;
+}
+
+ul li:hover{
+	border-right:10px solid purple;
+	margin-left: -10px;
 }
